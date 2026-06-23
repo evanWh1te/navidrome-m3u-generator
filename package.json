@@ -1,0 +1,15 @@
+{
+    "name": "navidrome-m3u-bridge",
+    "version": "1.0.0",
+    "description": "Syncs a Navidrome playlist to an M3U8 file on a configurable interval",
+    "main": "src/server.js",
+    "type": "module",
+    "packageManager": "pnpm@11.8.0",
+    "scripts": {
+        "start": "node src/server.js"
+    },
+    "dependencies": {
+        "dotenv": "^17.4.2",
+        "express": "^5.2.1"
+    }
+}
